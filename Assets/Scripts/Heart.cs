@@ -9,7 +9,6 @@ public class Heart : MonoBehaviour {
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    
     void Update() {
         
     }

@@ -13,17 +13,17 @@ public class Player : MonoBehaviour {
                  fall = -1,
                  tp = 8,
                  groundCheckRadious;
-    public int Health = 5;
+    public int Health = 5,
+               AroSpeed = 10;
     public LayerMask isGroundedLayer;
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer SprtRndrr;
     private bool isGrounded,
-                 toRight = true,
-                 tele = false;
+                 toRight = true;
     public GameObject arrow;
     public Collider2D ground;
-    //public Arrrow arrow;
+    private Arrrow a;
 
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
@@ -43,14 +43,23 @@ public class Player : MonoBehaviour {
         teleVector = rb2d.position;
 
         isGrounded = ground.IsTouchingLayers(isGroundedLayer);
-            //Physics2D.OverlapArea(new Vector2(transform.position.x - groundCheckRadious, transform.position.y - groundCheckRadious),
-                     //new Vector2(transform.position.x + groundCheckRadious, transform.position.y - groundCheckRadious), isGroundedLayer);
+        //Physics2D.OverlapArea(new Vector2(transform.position.x - groundCheckRadious, transform.position.y - groundCheckRadious),
+        //new Vector2(transform.position.x + groundCheckRadious, transform.position.y - groundCheckRadious), isGroundedLayer);
+
+        if (rb2d.position.x <= -tp) {
+            teleVector.x = tp;
+            transform.position = teleVector;
+        }
+        if (rb2d.position.x >= tp) {
+            teleVector.x = -tp;
+            transform.position = teleVector;
+        }
 
         if (Input.GetButtonDown("Jump") && isGrounded) {
             rb2d.AddForce(Vector3.up * 1000);
             anim.Play("Jumping");
         }
-        if (rb2d.velocity.y <= 0 && !isGrounded){
+        if (rb2d.velocity.y <= 0 && !isGrounded) {
             //rb2d.AddForce(Vector3.down * 10);
             //fallVector.y = fall;
             rb2d.velocity = fallVector;
@@ -87,38 +96,32 @@ public class Player : MonoBehaviour {
                 anim.Play("Idle");
             }
         }
+        
+        if (Input.GetKeyDown(KeyCode.S)) {
+            anim.Play("Shooting");
+            a = Instantiate(arrow, new Vector2(transform.position.x, transform.position.y), Quaternion.identity).GetComponent<Arrrow>();
+        }
+
         if ((rb2d.velocity.x < 0 && toRight) || (rb2d.velocity.x > 0 && !toRight)) {
             toRight = !toRight;
             SprtRndrr.flipX = !SprtRndrr.flipX;
         }
-        if (Input.GetKeyDown(KeyCode.S)) {
-            anim.Play("Shooting");
-            Arrrow a = Instantiate(arrow, new Vector2(transform.position.x, transform.position.y), Quaternion.identity).GetComponent<Arrrow>();
-            //Arrrow a = Instantiate(arrow, transform.localPosition, transform.localRotation) as Arrrow;
-            //GameObject a = (GameObject) Instantiate(arrow, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
-            if (!toRight) {
-                //the if statement works, but the content doesn't.
-                //Debug.Log("hello");
-                //a.rb2d.velocity = -1 * a.speedVector;
-                a.rb2d.velocity *= -1;
-                //a.GetComponent<Arrrow>().Damage = 100;
-                //a.GetComponent<Rigidbody2D>().velocity = new Vector2(a.GetComponent<Arrrow>().speedVector.x * -1000000, 0);
-               //a.transform.Translate(a.rb2d.velocity * -1);
-            }
-        }
-        if (Health == 0) {
-            Destroy(gameObject);
+
+        a.speedVector.x = -speed;
+        if (!toRight) {
+            a.Flip(SprtRndrr.flipX);
+            a.speedVector.x *= -1;
         }
 
-        if (rb2d.position.x <= -tp && tele == false) {
-            teleVector.x = tp;
-            rb2d.position = teleVector;
-            tele = true;
+        /*if (!toRight) {
+            AroSpeed *= -1;
         }
-        if (rb2d.position.x >= tp && tele == false) {
-            teleVector.x = -tp;
-            rb2d.position = teleVector;
-            tele = true;
+        if (toRight) {
+            AroSpeed = 10;
+        }*/
+
+        if (Health == 0) {
+            Destroy(gameObject);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision) {

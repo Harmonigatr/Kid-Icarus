@@ -12,37 +12,32 @@ public class Arrrow : MonoBehaviour {
     private float speed = 10;
     private float Timer = 0.0f;
     public int Damage = 1;
+    public void Flip(bool bby)  { SprtRndrr.flipX = bby;  }
 
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
         //rb2d = this.GetComponent<Rigidbody2D>();
         SprtRndrr = GetComponent<SpriteRenderer>();
-        speedVector.x = speed;
-        riseVector.y = speed;
-        transform.Rotate(Vector3.forward);
-        rb2d.velocity = speedVector;
+        //Player Player = GetComponent<Player>();
+        speedVector.x = speed;//Player.AroSpeed;
+        //speedVector.y = Player.AroSpeed;
+        //transform.Rotate(Vector3.forward);
+        //if (!Input.GetKeyDown(KeyCode.W)) {
+        //rb2d.velocity = speedVector;
+        //}
+        /*if (Input.GetKeyDown(KeyCode.W)) {
+            rb2d.velocity = riseVector;
+        }*/
     }
 
     void Update() {
         Timer += Time.deltaTime;
-        if (isAlive) {
-            if (Input.GetKeyDown(KeyCode.W)) {
-                rb2d.velocity = riseVector;
-            }
-            if (!Input.GetKeyDown(KeyCode.W)) {
-                
-                //transform.Translate(speedVector, 0);
-                Player Player = gameObject.GetComponent<Player>();
-                //if (Player.currentState != PlayerStates.Flip) {
-                //    SprtRndrr.flipX = !SprtRndrr.flipX;
-                //rb2d.velocity = speedVector;
-                //}
-                //if (Player.currentState == PlayerStates.Flip) {
-                //    SprtRndrr.flipX = !SprtRndrr.flipX;
-                //    rb2d.velocity = -speedVector;  
-                //}
-            }
-        }
+        //if (!Input.GetKeyDown(KeyCode.W)) {
+        rb2d.velocity = speedVector;
+        //}
+        /*if (Input.GetKeyDown(KeyCode.W)) {
+            rb2d.velocity = riseVector;
+        }*/
         if (Timer >= ExistLim) {
             Destroy(gameObject);
             if (!isAlive) { return; }
