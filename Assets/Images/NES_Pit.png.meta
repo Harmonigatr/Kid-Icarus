@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 63b35da4ce891db4497788a8ffbce595
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pit Crouch
+    21300002: Pit Jump Shoot Left
+    21300004: NES_Pit_2
+    21300006: Pit Walk Shoot Left 2
+    21300008: Pit Walk Shoot Left 1
+    21300010: Pit Walk Shoot Left 0
+    21300012: Pit Idle Shoot Left
+    21300014: Pit Idle
+    21300016: Pit Walk 0
+    21300018: Pit Walk 1
+    21300020: Pit Walk 2
+    21300022: Pit Jump Fall
+    21300024: Pit Jump
+    21300026: NES_Pit_13
+    21300028: NES_Pit_14
+    21300030: Pit Eggplant Idle Left
+    21300032: Pit Jump Left
+    21300034: NES_Pit_17
+    21300036: Pit Walk Left 2
+    21300038: Pit Walk Left 1
+    21300040: Pit Walk Left 0
+    21300042: Pit Idle left
+    21300044: Pit Idle Shoot
+    21300046: Pit Walk Shoot 0
+    21300048: Pit Walk Shoot 1
+    21300050: Pit Walk Shoot 2
+    21300052: Pit Jump Shoot 0
+    21300054: Pit Jump Shoot
+    21300056: Pit Eggplant Idle
+    21300058: NES_Pit_29
+    21300060: Pit Eggplant Jump Left
+    21300062: NES_Pit_31
+    21300064: NES_Pit_32
+    21300066: NES_Pit_33
+    21300068: Pit Climb Left
+    21300070: NES_Pit_35
+    21300072: NES_Pit_36
+    21300074: NES_Pit_37
+    21300076: NES_Pit_38
+    21300078: Pit Climb Right
+    21300080: NES_Pit_40
+    21300082: NES_Pit_41
+    21300084: NES_Pit_42
+    21300086: Pit Eggplant Jump
+    21300088: NES_Pit_44
+    21300090: NES_Pit_45
+    21300092: NES_Pit_46
+    21300094: NES_Pit_47
+    21300096: NES_Pit_48
+    21300098: NES_Pit_49
+    21300100: NES_Pit_50
+    21300102: NES_Pit_51
+    21300104: NES_Pit_52
+    21300106: NES_Pit_53
+    21300108: NES_Pit_54
+    21300110: NES_Pit_55
+    21300112: NES_Pit_56
+    21300114: NES_Pit_57
+    21300116: NES_Pit_58
+    21300118: NES_Pit_59
+    21300120: NES_Pit_60
+    21300122: NES_Pit_61
+    21300124: NES_Pit_62
+    21300126: NES_Pit_63
+    21300128: NES_Pit_64
+    21300130: NES_Pit_65
+    21300132: NES_Pit_66
+    21300134: NES_Pit_67
+    21300136: NES_Pit_68
+    21300138: NES_Pit_69
+    21300140: NES_Pit_70
+    21300142: NES_Pit_71
+    21300144: NES_Pit_72
+    21300146: NES_Pit_73
+    21300148: NES_Pit_74
+    21300150: NES_Pit_75
+    21300152: NES_Pit_76
+    21300154: NES_Pit_77
+    21300156: NES_Pit_78
+    21300158: NES_Pit_79
+    21300160: NES_Pit_80
+    21300162: NES_Pit_81
+    21300164: NES_Pit_82
+    21300166: NES_Pit_83
+    21300168: NES_Pit_84
+    21300170: NES_Pit_85
+    21300172: NES_Pit_86
+    21300174: NES_Pit_87
+    21300176: NES_Pit_88
+    21300178: NES_Pit_89
+    21300180: NES_Pit_90
+    21300182: NES_Pit_91
+    21300184: NES_Pit_92
+    21300186: NES_Pit_93
+    21300188: NES_Pit_94
+    21300190: NES_Pit_95
+    21300192: NES_Pit_96
+    21300194: NES_Pit_97
+    21300196: NES_Pit_98
+    21300198: NES_Pit_99
+    21300200: NES_Pit_100
+    21300202: NES_Pit_101
+    21300204: NES_Pit_102
+    21300206: NES_Pit_103
+    21300208: NES_Pit_104
+    21300210: NES_Pit_105
+    21300212: NES_Pit_106
+    21300214: NES_Pit_107
+    21300216: NES_Pit_108
+    21300218: NES_Pit_109
+    21300220: NES_Pit_110
+    21300222: NES_Pit_111
+    21300224: NES_Pit_112
+    21300226: NES_Pit_113
+    21300228: NES_Pit_114
+    21300230: NES_Pit_115
+    21300232: NES_Pit_116
+    21300234: NES_Pit_117
+    21300236: NES_Pit_118
+    21300238: NES_Pit_119
+    21300240: NES_Pit_120
+    21300242: NES_Pit_121
+    21300244: NES_Pit_122
+    21300246: NES_Pit_123
+    21300248: NES_Pit_124
+    21300250: NES_Pit_125
+    21300252: NES_Pit_126
+    21300254: NES_Pit_127
+    21300256: NES_Pit_128
+    21300258: NES_Pit_129
+    21300260: NES_Pit_130
+    21300262: NES_Pit_131
+    21300264: NES_Pit_132
+    21300266: NES_Pit_133
+    21300268: NES_Pit_134
+    21300270: NES_Pit_135
+    21300272: NES_Pit_136
+    21300274: NES_Pit_137
+    21300276: NES_Pit_138
+    21300278: NES_Pit_139
+    21300280: NES_Pit_140
+    21300282: NES_Pit_141
+    21300284: NES_Pit_142
+    21300286: NES_Pit_143
+    21300288: NES_Pit_144
+    21300290: NES_Pit_145
+    21300292: NES_Pit_146
+    21300294: NES_Pit_147
+    21300296: NES_Pit_148
+    21300298: NES_Pit_149
+    21300300: NES_Pit_150
+    21300302: NES_Pit_151
+    21300304: NES_Pit_152
+    21300306: NES_Pit_153
+    21300308: NES_Pit_154
+    21300310: NES_Pit_155
+    21300312: NES_Pit_156
+    21300314: NES_Pit_157
+    21300316: NES_Pit_158
+    21300318: NES_Pit_159
+    21300320: NES_Pit_160
+    21300322: NES_Pit_161
+    21300324: NES_Pit_162
+    21300326: NES_Pit_163
+    21300328: NES_Pit_164
+    21300330: NES_Pit_165
+    21300332: NES_Pit_166
+    21300334: NES_Pit_167
+    21300336: NES_Pit_168
+    21300338: NES_Pit_169
+    21300340: NES_Pit_170
+    21300342: NES_Pit_171
+    21300344: NES_Pit_172
+    21300346: NES_Pit_173
+    21300348: NES_Pit_174
+    21300350: NES_Pit_175
+    21300352: NES_Pit_176
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pit Crouch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6151e335d2aa3a1459755c916dca4878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Idle
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 329
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b313b6a42b17e48b3a5ba3390b70d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Walk 0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 329
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cdbe5e19c0d24489dabbcd32ec2ca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Walk 1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 330
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c668e0f8af5dd44ac1d04b31b7ebc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Walk 2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 329
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0143a0817c92649b33377c73457fe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Jump Fall
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 329
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83ca1255bd63044b9139355502eabe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Jump
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 330
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0161e70929d241b9afe75e94e3c9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 331
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6e6dad673b83e40baa43a197a5181a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_14
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 327
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261fce46b4ffb284a82855c81d3c6214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Idle Shoot
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 299
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35a9f738d3bba445bb413fbe2805f4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Walk Shoot 0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 299
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97e578c33081a04f8102f6c7d01c012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Walk Shoot 1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 299
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c07656c9032cd47bc3f823ea289020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Walk Shoot 2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 299
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf5af0f2dc02446b7a7f435a6ed362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Jump Shoot 0
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 300
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3f30dc04831b14ca687b1f3941c095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Jump Shoot
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 300
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4ab2fd8b7611c4fb9233d9e3a86904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Eggplant Idle
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 304
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9790ceb21088a0f47ab21abc9ef99c92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_29
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 297
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cba62d0b8e3cd4cabf105b1d4c72bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 269
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fd25d430c227a4cbdc11a5ac100664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 269
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688607d7de928ac40980b1696b136875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 269
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b03bd52ce418274c8383319f687b929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 269
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e17214f31a691445bf09ee865cb4d40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Climb Right
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 269
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2d75687180e540b7fb97ac2e6e318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_40
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 270
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe54c289b8dc4e4d85824dd63ca7e11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 270
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbc8d7d6faec5940abf263f098ade65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 270
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb3ee35e114465409542d690d7fff67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pit Eggplant Jump
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 270
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89110e06a49a8514085812bac0660951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_44
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 267
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6483634f449d949bd3738b80adb17f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_59
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 238
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b76694d57f7dce4eba768f0c3117dba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_74
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 208
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a88f686efbb341bb79bd4f757ead5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_89
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 175
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d53cf3637d6564ca228152c0afd755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_104
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 131
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5e3607c30941f4599cbe17b0752995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_119
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 85
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab66275fb61096a45825faa1590cd680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Pit_148
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 55
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1149acc50d143d7489e04fbd2b255748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 802515d69af8e5546b7b4faa9d26ec5d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

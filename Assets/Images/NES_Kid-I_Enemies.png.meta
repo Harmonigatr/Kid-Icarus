@@ -1,0 +1,2632 @@
+fileFormatVersion: 2
+guid: b70142cdb9aed0d49bf8442801bf56d7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Snake-blue-left-0
+    21300002: Snake-blue-left-1
+    21300004: Snake-blue-0
+    21300006: Snake-blue-1
+    21300008: NES_Kid-I_Enemies_4
+    21300010: NES_Kid-I_Enemies_5
+    21300012: NES_Kid-I_Enemies_6
+    21300014: NES_Kid-I_Enemies_7
+    21300016: NES_Kid-I_Enemies_8
+    21300018: NES_Kid-I_Enemies_9
+    21300020: NES_Kid-I_Enemies_10
+    21300022: NES_Kid-I_Enemies_11
+    21300024: NES_Kid-I_Enemies_12
+    21300026: NES_Kid-I_Enemies_13
+    21300028: Snake-grey-left-0
+    21300030: Snake-grey-left-1
+    21300032: Snake-grey-right-0
+    21300034: Snake-grey-1
+    21300036: NES_Kid-I_Enemies_18
+    21300038: NES_Kid-I_Enemies_19
+    21300040: NES_Kid-I_Enemies_20
+    21300042: NES_Kid-I_Enemies_21
+    21300044: Reaper-trigg-left-1
+    21300046: Reaper-trigg-left-0
+    21300048: Reaper-calm-left
+    21300050: Reaper-calm
+    21300052: Reaper-trigg-0
+    21300054: Reaper-trigg-1
+    21300056: Snake-red-left-0
+    21300058: Snake-red-left-1
+    21300060: Snake-red-0
+    21300062: Snake-red-1
+    21300064: NES_Kid-I_Enemies_32
+    21300066: NES_Kid-I_Enemies_33
+    21300068: NES_Kid-I_Enemies_34
+    21300070: NES_Kid-I_Enemies_35
+    21300072: NES_Kid-I_Enemies_36
+    21300074: NES_Kid-I_Enemies_37
+    21300076: NES_Kid-I_Enemies_38
+    21300078: NES_Kid-I_Enemies_39
+    21300080: NES_Kid-I_Enemies_40
+    21300082: NES_Kid-I_Enemies_41
+    21300084: EggpWiz-left-0
+    21300086: EggpWiz-left-1
+    21300088: EggpWiz-0
+    21300090: EggpWiz-1
+    21300092: NES_Kid-I_Enemies_46
+    21300094: NES_Kid-I_Enemies_47
+    21300096: NES_Kid-I_Enemies_48
+    21300098: NES_Kid-I_Enemies_49
+    21300100: NES_Kid-I_Enemies_50
+    21300102: NES_Kid-I_Enemies_51
+    21300104: NES_Kid-I_Enemies_52
+    21300106: NES_Kid-I_Enemies_53
+    21300108: NES_Kid-I_Enemies_54
+    21300110: NES_Kid-I_Enemies_55
+    21300112: NES_Kid-I_Enemies_56
+    21300114: NES_Kid-I_Enemies_57
+    21300116: NES_Kid-I_Enemies_58
+    21300118: NES_Kid-I_Enemies_59
+    21300120: NES_Kid-I_Enemies_60
+    21300122: NES_Kid-I_Enemies_61
+    21300124: NES_Kid-I_Enemies_62
+    21300126: NES_Kid-I_Enemies_63
+    21300128: NES_Kid-I_Enemies_64
+    21300130: NES_Kid-I_Enemies_65
+    21300132: NES_Kid-I_Enemies_66
+    21300134: NES_Kid-I_Enemies_67
+    21300136: NES_Kid-I_Enemies_68
+    21300138: NES_Kid-I_Enemies_69
+    21300140: NES_Kid-I_Enemies_70
+    21300142: NES_Kid-I_Enemies_71
+    21300144: NES_Kid-I_Enemies_72
+    21300146: NES_Kid-I_Enemies_73
+    21300148: NES_Kid-I_Enemies_74
+    21300150: NES_Kid-I_Enemies_75
+    21300152: NES_Kid-I_Enemies_76
+    21300154: NES_Kid-I_Enemies_77
+    21300156: NES_Kid-I_Enemies_78
+    21300158: NES_Kid-I_Enemies_79
+    21300160: NES_Kid-I_Enemies_80
+    21300162: NES_Kid-I_Enemies_81
+    21300164: NES_Kid-I_Enemies_82
+    21300166: NES_Kid-I_Enemies_83
+    21300168: NES_Kid-I_Enemies_84
+    21300170: NES_Kid-I_Enemies_85
+    21300172: NES_Kid-I_Enemies_86
+    21300174: NES_Kid-I_Enemies_87
+    21300176: NES_Kid-I_Enemies_88
+    21300178: NES_Kid-I_Enemies_89
+    21300180: NES_Kid-I_Enemies_90
+    21300182: NES_Kid-I_Enemies_91
+    21300184: NES_Kid-I_Enemies_92
+    21300186: NES_Kid-I_Enemies_93
+    21300188: NES_Kid-I_Enemies_94
+    21300190: NES_Kid-I_Enemies_95
+    21300192: NES_Kid-I_Enemies_96
+    21300194: NES_Kid-I_Enemies_97
+    21300196: NES_Kid-I_Enemies_98
+    21300198: NES_Kid-I_Enemies_99
+    21300200: NES_Kid-I_Enemies_100
+    21300202: NES_Kid-I_Enemies_101
+    21300204: NES_Kid-I_Enemies_102
+    21300206: NES_Kid-I_Enemies_103
+    21300208: NES_Kid-I_Enemies_104
+    21300210: NES_Kid-I_Enemies_105
+    21300212: NES_Kid-I_Enemies_106
+    21300214: NES_Kid-I_Enemies_107
+    21300216: NES_Kid-I_Enemies_108
+    21300218: NES_Kid-I_Enemies_109
+    21300220: NES_Kid-I_Enemies_110
+    21300222: NES_Kid-I_Enemies_111
+    21300224: NES_Kid-I_Enemies_112
+    21300226: NES_Kid-I_Enemies_113
+    21300228: NES_Kid-I_Enemies_114
+    21300230: NES_Kid-I_Enemies_115
+    21300232: NES_Kid-I_Enemies_116
+    21300234: NES_Kid-I_Enemies_117
+    21300236: NES_Kid-I_Enemies_118
+    21300238: NES_Kid-I_Enemies_119
+    21300240: NES_Kid-I_Enemies_120
+    21300242: NES_Kid-I_Enemies_121
+    21300244: NES_Kid-I_Enemies_122
+    21300246: NES_Kid-I_Enemies_123
+    21300248: NES_Kid-I_Enemies_124
+    21300250: NES_Kid-I_Enemies_125
+    21300252: NES_Kid-I_Enemies_126
+    21300254: NES_Kid-I_Enemies_127
+    21300256: NES_Kid-I_Enemies_128
+    21300258: NES_Kid-I_Enemies_129
+    21300260: NES_Kid-I_Enemies_130
+    21300262: NES_Kid-I_Enemies_131
+    21300264: NES_Kid-I_Enemies_132
+    21300266: NES_Kid-I_Enemies_133
+    21300268: NES_Kid-I_Enemies_134
+    21300270: NES_Kid-I_Enemies_135
+    21300272: NES_Kid-I_Enemies_136
+    21300274: NES_Kid-I_Enemies_137
+    21300276: NES_Kid-I_Enemies_138
+    21300278: NES_Kid-I_Enemies_139
+    21300280: NES_Kid-I_Enemies_140
+    21300282: NES_Kid-I_Enemies_141
+    21300284: NES_Kid-I_Enemies_142
+    21300286: NES_Kid-I_Enemies_143
+    21300288: Centurion-white-left-0
+    21300290: Centurion-white-left-1
+    21300292: Centurion-white-right-0
+    21300294: Centurion-white-right-1
+    21300296: NES_Kid-I_Enemies_148
+    21300298: NES_Kid-I_Enemies_149
+    21300300: NES_Kid-I_Enemies_150
+    21300302: NES_Kid-I_Enemies_151
+    21300304: NES_Kid-I_Enemies_152
+    21300306: NES_Kid-I_Enemies_153
+    21300308: NES_Kid-I_Enemies_154
+    21300310: NES_Kid-I_Enemies_155
+    21300312: NES_Kid-I_Enemies_156
+    21300314: NES_Kid-I_Enemies_157
+    21300316: Centurion-green-left-0
+    21300318: Centurion-green-left-1
+    21300320: Centurion-green-right-0
+    21300322: Centurion-green-right-1
+    21300324: NES_Kid-I_Enemies_162
+    21300326: NES_Kid-I_Enemies_163
+    21300328: NES_Kid-I_Enemies_164
+    21300330: NES_Kid-I_Enemies_165
+    21300332: NES_Kid-I_Enemies_166
+    21300334: NES_Kid-I_Enemies_167
+    21300336: NES_Kid-I_Enemies_168
+    21300338: NES_Kid-I_Enemies_169
+    21300340: NES_Kid-I_Enemies_170
+    21300342: NES_Kid-I_Enemies_171
+    21300344: Centurion-blue-left-0
+    21300346: Centurion-blue-left-1
+    21300348: Centurion-blue-right-0
+    21300350: Centurion-blue-right-1
+    21300352: Twinbellows-left-0
+    21300354: Twinbellows-right-0
+    21300356: NES_Kid-I_Enemies_178
+    21300358: NES_Kid-I_Enemies_179
+    21300360: NES_Kid-I_Enemies_180
+    21300362: NES_Kid-I_Enemies_181
+    21300364: NES_Kid-I_Enemies_182
+    21300366: NES_Kid-I_Enemies_183
+    21300368: Centurion-red-left-0
+    21300370: Centurion-red-left-1
+    21300372: Centurion-red-right-0
+    21300374: Centurion-red-right-1
+    21300376: Twinbellows-left-1
+    21300378: Twinbellows-right-1
+    21300380: Pandora-0
+    21300382: Pandora-1
+    21300384: NES_Kid-I_Enemies_0
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake-blue-0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 399
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c617c30a7d4e8ea4089915e5d06da64d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake-blue-1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 398
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf13c45a3d66be48a5ca4805228c493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 398
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d88db8ad4ead4f4c8be42b95d6b83ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 395
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162f89eec4ee54b49883d104ec804270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 395
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0170c19623cf882468f4666d8c9c75b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 394
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f19ba86356125428b04c9acd8fd73a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 394
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2513f50fccac14da6fc7132d1b0e2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake-grey-right-0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 369
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fc0cf3bb3423b45a3b5f852e38e177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake-grey-1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 368
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26ba62faba9d8548bfbd28cf3ce4c47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6550fb03be2c0884fbb503316a4c66e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efaf815cc040b8458d852433fa613cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaper-calm
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 365
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c744be95d2f02f149ad741381ea5d7d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaper-trigg-0
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 364
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e7cdc97395f124e9e87797a3240297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaper-trigg-1
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 364
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d09da5520ef8ea47810297d70779b83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake-red-0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 339
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a59b0a6dc7f7d43bc10d0261e410f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake-red-1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 338
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f496aafb3daa11d40946a8bbb3e80079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_33
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 338
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2ac94125954584b9d7de172f30686b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_34
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 338
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbc4eb5e17cdfd4d8891891824171f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_35
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 338
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ff6cb40bd70794980c347d2940d96c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_39
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 341
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771ceb2cdd277fc4d97c9a27ca6b2028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_40
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 339
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e50d9c44f990b43ba548145bc2dea5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_41
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 338
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da0ccdd4157f14dbd8a3cc326eace7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggpWiz-0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 305
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf8a4e741a6097408bef10fe8f57d9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggpWiz-1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 305
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789823782e776864fb19926efb73df29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_47
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9606d7e2ddc16c3498fdc7559f32a9c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_49
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 309
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaf3315a3827ac428193127ea7aef70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 312
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8bbc23fceeecd4bbb407dd686994a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_52
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 308
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adb271a08bc18e4db6976237bdbd6e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_53
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 310
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf4cb30f2650dc4384c9eabf1f87dd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_54
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 308
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a6a4ecee5e17e479de9bae640aacfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_55
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 310
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73425ff50bd0544e95413db6f33dde9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 279
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd1321eea7252547a6d7c5ff0cee8b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_59
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5171b4faba82f44e8bae39804b9d1a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_60
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 279
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a7c918d93df8f47805dfedad217df9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 279
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d6475dafe97a34fbb6681fc8b3485c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_62
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 278
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f5e9afcae1f8f4e947460d903c0c66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_63
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 279
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a7b7a79dcdc54e939b9953578fa92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_64
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b197a3d8c15354d92d82c92f8935be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_65
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05f7e1226ca2d44caac497797d94d31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_67
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ac1808424d5b64bae839dbd2a58c15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_69
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b48043c4cfeb9449fc6b55821bfc43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 249
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e037135ce8e5fa4a843935df4f6f7d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_73
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7650e53a445c1074f8a2842e7064650c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_75
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 248
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b1f3d088bdb434db12dde78da15f81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_78
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 249
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbd44132ace07a4396e5352c2aafd4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_79
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 249
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a2cbf6579099d4e9504ea56ddd8599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_80
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 249
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551ef5f2a154e234faf41353b32854d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_81
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 249
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6762a27ac724d74ea809f452c7a5109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_82
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 249
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8152980aa9814040a0bde34c4026c83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_83
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 249
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2821f0ba5d2f24d9c4aad3ce12fe03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 222
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c42222201c2e04581edaf457536fde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_87
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5b1826c8543d645a942c4660656104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 218
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f57c0d507e7684b83e7a0779fd06e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_89
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 218
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155bc238bd069f94a8444797847cd454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_92
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 219
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae1b0628ac9a874c91c9f6ff91a56cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_93
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 218
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb263eda42694d74496dd5d103c8e581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_96
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b7880fc2070a246b7723a53b4e3713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_97
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be30264383b56a479f081f0f67838b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 190
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956fa0ae38340914aa2a5a84b3ad1bb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_101
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5868104cc645e7a44981d307ed0fe9cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_102
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19907f9b37b44cd4cbf50b68eabf4f08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_103
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f177a69f5c0ac5419942003f9f7b454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_106
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 189
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13c36488ba95794eab0dbba106c3daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_107
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 188
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e499b10da186c42ba1c0b8642c1020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_108
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d983b86d25cc049b0484d6375a7719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_109
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b775b18835947428cbad921c45b09a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_110
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11afd25f48c8f0c4daead691d0c65c34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_111
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29314758141a05429e46bf3fdf736ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853247a8babb3064b9370c9cb19ae2b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_115
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa291213eaf69949b4e2602a0cf698f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_116
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 158
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b7149f054752946b7463235a01856e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_117
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 159
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9183ed65afb5b14aa1c83dacd10980d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_120
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0ceb16dca44f442bfb9648fbe38ec5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_121
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 159
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf856991bc84a864b841f6706f3bcb49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_122
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89f844892a71874d86a99622e5cf312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_123
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 159
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9df9aeb049bb3b4db7a23afe8c6f431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_124
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983ad0aad8520774caa951a0e31d7233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_125
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 159
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bfee1e909c4e34ca90dd97ad4b180b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_128
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 128
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2821ce2101763cc4bb48bf18f2a9cd10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_129
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 128
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbc7e4610c70fa4fa881486c943afac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_133
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 133
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9ad7b46d9172b45876eeb5a9be7b00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_134
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 130
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0d227e784fc394baf76b25ed310707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_135
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 130
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff1c33ba4995cd4caa64c9304bb1d8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_137
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdae297c84476a46900ab468de14694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_138
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cf8f9b3e459d24199283712e3032ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_139
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c328179c4c0e0c542a453d29763263bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 103
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc7f67e1f6e06c41a715f00d610467c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_143
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 103
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e462550df4422e4e9617b3bdd7e4da2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-white-right-0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e67a0ef9c9e49044aae82b2a0a43468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-white-right-1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b42df44cffa434caf250a0e76e3531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_148
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 104
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660d53d9680a3504d8ecc185667c2170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_149
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 102
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87936bd28c529241aba7ac45d92877a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_150
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8340c0866195a9c49bed378c94e4cf21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_151
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b92d331b4a0f3d418ccaa73f58810a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_153
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 98
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6aaaca7ad0e7a47922fd7aa55ed1ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 77
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49373fc82f70d241bebf22f0dc80e03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_157
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 77
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46affb245bfff6419e8ac0766847b01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-green-right-0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aaed4fd79155f4bbcf837eed60efd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-green-right-1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a183bb5f40d341ba79217ad24c29a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_163
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 69
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a493a214c78f642939d47118022c60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_165
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 69
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd06d5683e91d7a4a8344709e9a16f68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_167
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 68
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7100fceec5cd93744b83961906857162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 38
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8065c3de147ab5d4cabf99c2e3670207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_171
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 39
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e27fdb58c6c626479ad056012aaa123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-blue-right-0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ffdf12dc208dc41be6a0a6b46dd309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-blue-right-1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add02c4c3d0e11f45b173d4be3afcfa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twinbellows-right-0
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 34
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651fb8c81292eb7499308a39efffb9d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_178
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53e52b4281b0224abedb25b8f27116e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_179
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10199a5d746e9546a9a00daf5512550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_182
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501d6e611fcf97240ace04f57461afb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_183
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263430e9d63a2854b9ff631bfffc696e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-red-right-0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e287dcd08f5a34f969c982c99a151c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centurion-red-right-1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36946086b1db796478e416fd027f91f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twinbellows-right-1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 4
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467e55fbcc92d7a4099025af81a007a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandora-0
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b995712f988462941803686c95a48638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandora-1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e06d4a2a3e47d344be48aa3affa65da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Kid-I_Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 314
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da03d1c95dd99324cb5ab50bb9b057be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa69a872cb21ba84fb79142d31da537e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
