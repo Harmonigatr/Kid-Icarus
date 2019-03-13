@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
     private Vector2 stopVector = new Vector2();
     private Vector2 fallVector = new Vector2();
     private Vector2 teleVector = new Vector2();
-    public float JumpForce = 5,
+    public float JumpForce = 950,
                  stop = 0,
                  speed = -10,
                  fall = -1,
@@ -56,7 +56,7 @@ public class Player : MonoBehaviour {
         }
 
         if (Input.GetButtonDown("Jump") && isGrounded) {
-            rb2d.AddForce(Vector3.up * 1000);
+            rb2d.AddForce(Vector3.up * JumpForce);
             anim.Play("Jumping");
         }
         if (rb2d.velocity.y <= 0 && !isGrounded) {

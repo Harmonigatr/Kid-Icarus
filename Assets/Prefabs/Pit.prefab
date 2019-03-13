@@ -169,13 +169,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7515e13ace61414a88a44eefc654467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForce: 5
+  JumpForce: 950
   stop: 0
   speed: -10
   fall: -10
   tp: 8
   groundCheckRadious: 1
   Health: 5
+  AroSpeed: 10
   isGroundedLayer:
     serializedVersion: 2
     m_Bits: 256
