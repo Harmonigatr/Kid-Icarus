@@ -20,9 +20,11 @@ public class Player : MonoBehaviour {
     private Animator anim;
     private SpriteRenderer SprtRndrr;
     private bool isGrounded,
-                 toRight = true;
+                 toRight = true,
+                 crouch = false,
+                 fell = false;
     public GameObject arrow;
-    public Collider2D ground;
+    public Collider2D doesGround;
     private Arrrow a;
 
     void Start() {
@@ -42,7 +44,7 @@ public class Player : MonoBehaviour {
         fallVector = rb2d.velocity;
         teleVector = rb2d.position;
 
-        isGrounded = ground.IsTouchingLayers(isGroundedLayer);
+        isGrounded = doesGround.IsTouchingLayers(isGroundedLayer);
         //Physics2D.OverlapArea(new Vector2(transform.position.x - groundCheckRadious, transform.position.y - groundCheckRadious),
         //new Vector2(transform.position.x + groundCheckRadious, transform.position.y - groundCheckRadious), isGroundedLayer);
 
@@ -55,7 +57,16 @@ public class Player : MonoBehaviour {
             transform.position = teleVector;
         }
 
-        if (Input.GetButtonDown("Jump") && isGrounded) {
+        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded) {
+            crouch = true;
+            anim.Play("Crouching");
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            crouch = false;
+            anim.Play("Idle");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) {
             rb2d.AddForce(Vector3.up * JumpForce);
             anim.Play("Jumping");
         }
@@ -64,42 +75,56 @@ public class Player : MonoBehaviour {
             //fallVector.y = fall;
             rb2d.velocity = fallVector;
             anim.Play("Falling");
-            if (rb2d.velocity.y <= 0 && isGrounded){
-                anim.Play("Idle");
-            }
+            fell = true;
+        }
+        else if (rb2d.velocity.y <= 0 && isGrounded && fell) {
+            anim.Play("Idle");
+            fell = false;
         }
         if (Input.GetKeyDown(KeyCode.A)) {
             speedVector.x = speed;
             rb2d.velocity = speedVector;
-            if (isGrounded) {
+            if (isGrounded && !crouch) {
                 anim.Play("Walking");
+            }
+            else if(crouch) {
+                anim.Play("Crouching");
             }
         }
         if (Input.GetKeyUp(KeyCode.A)) {
             stopVector.x = stop;
             rb2d.velocity = stopVector;
-            if (isGrounded) {
+            if (isGrounded && !crouch) {
                 anim.Play("Idle");
+            }
+            else if (crouch) {
+                anim.Play("Crouching");
             }
         }
         if (Input.GetKeyDown(KeyCode.D)) {
             speedVector.x = -speed;
             rb2d.velocity = speedVector;
-            if (isGrounded) {
+            if (isGrounded && !crouch) {
                 anim.Play("Walking");
+            }
+            else if (crouch) {
+                anim.Play("Crouching");
             }
         }
         if (Input.GetKeyUp(KeyCode.D)) {
             stopVector.x = stop;
             rb2d.velocity = stopVector;
-            if (isGrounded) {
+            if (isGrounded && !crouch) {
                 anim.Play("Idle");
+            }
+            else if (crouch) {
+                anim.Play("Crouching");
             }
         }
         
         if (Input.GetKeyDown(KeyCode.S)) {
             anim.Play("Shooting");
-            a = Instantiate(arrow, new Vector2(transform.position.x, transform.position.y), Quaternion.identity).GetComponent<Arrrow>();
+            a = Instantiate(arrow, new Vector2(rb2d.position.x, rb2d.position.y), Quaternion.identity).GetComponent<Arrrow>();
         }
 
         if ((rb2d.velocity.x < 0 && toRight) || (rb2d.velocity.x > 0 && !toRight)) {
