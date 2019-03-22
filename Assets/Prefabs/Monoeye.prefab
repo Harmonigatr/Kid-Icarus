@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6468988369592811214}
   - component: {fileID: 269768835323857271}
   - component: {fileID: 2335660937272588180}
-  - component: {fileID: 3505074860374095749}
   - component: {fileID: 1863761766341047860}
+  - component: {fileID: 3505074860374095749}
   m_Layer: 0
   m_Name: Monoeye
   m_TagString: Untagged
@@ -103,21 +103,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3505074860374095749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4900114118887919457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b368662383869fa4cb9b13b6eb577fa8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 5
-  Attack: 2
-  heart: {fileID: 3469721239240135295, guid: 3f01e6c446c9f944797bbfc453ee317a, type: 3}
 --- !u!61 &1863761766341047860
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,3 +129,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3505074860374095749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4900114118887919457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b368662383869fa4cb9b13b6eb577fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 1
+  Attack: 2
+  Value: 300
+  doesArrow: {fileID: 1863761766341047860}
+  isArrowedLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  heart: {fileID: 3469721239240135295, guid: 3f01e6c446c9f944797bbfc453ee317a, type: 3}
+  CD: {fileID: 3904122881764755512, guid: a85295b081ad03b4e92b5f0346bd0e08, type: 3}

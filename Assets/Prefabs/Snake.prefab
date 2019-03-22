@@ -142,9 +142,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b368662383869fa4cb9b13b6eb577fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 2
+  Health: 1
   Attack: 1
+  Value: 100
+  doesArrow: {fileID: 4721963443238818426}
+  isArrowedLayer:
+    serializedVersion: 2
+    m_Bits: 1024
   heart: {fileID: 8517072399242999124, guid: e4324c0edb7270442936d8d153333a2a, type: 3}
+  CD: {fileID: 3904122881764755512, guid: a85295b081ad03b4e92b5f0346bd0e08, type: 3}
 --- !u!95 &2245404309164175456
 Animator:
   serializedVersion: 3

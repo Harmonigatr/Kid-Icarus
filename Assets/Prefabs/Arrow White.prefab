@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1159221562839251050}
   - component: {fileID: 6451716739254972313}
   - component: {fileID: 4880809546838532868}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Arrow White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -145,3 +145,7 @@ MonoBehaviour:
   speedVector: {x: 0, y: 0}
   riseVector: {x: 0, y: 0}
   Damage: 1
+  doesHit: {fileID: 6451716739254972313}
+  isHitLayer:
+    serializedVersion: 2
+    m_Bits: 257

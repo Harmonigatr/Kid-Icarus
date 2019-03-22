@@ -7,18 +7,21 @@ public class Arrrow : MonoBehaviour {
     public Vector2 speedVector = new Vector2();
     public Vector2 riseVector = new Vector2();
     private SpriteRenderer SprtRndrr;
+    private BoxCollider2D bxClldr;
     private bool isAlive = true;
     private const float ExistLim = 0.5f;
     private float speed = 10;
     private float Timer = 0.0f;
     public int Damage = 1;
     public void Flip(bool bby)  { SprtRndrr.flipX = bby;  }
+    private bool isHit;
+    public Collider2D doesHit;
+    public LayerMask isHitLayer;
 
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
-        //rb2d = this.GetComponent<Rigidbody2D>();
         SprtRndrr = GetComponent<SpriteRenderer>();
-        //Player Player = GetComponent<Player>();
+        bxClldr = GetComponent<BoxCollider2D>();
         speedVector.x = speed;//Player.AroSpeed;
         //speedVector.y = Player.AroSpeed;
         //transform.Rotate(Vector3.forward);
@@ -38,6 +41,12 @@ public class Arrrow : MonoBehaviour {
         /*if (Input.GetKeyDown(KeyCode.W)) {
             rb2d.velocity = riseVector;
         }*/
+        isHit = doesHit.IsTouchingLayers(isHitLayer);
+
+        if (isHit) {
+            Destroy(gameObject);
+        }
+
         if (Timer >= ExistLim) {
             Destroy(gameObject);
             if (!isAlive) { return; }
@@ -50,6 +59,10 @@ public class Arrrow : MonoBehaviour {
             Destroy(gameObject);
             if (!isAlive) { return; }
             isAlive = false;
+            bxClldr.isTrigger = true;
+        }
+        else if (Player != null) {
+            bxClldr.isTrigger = false;
         }
     }
 }

@@ -15,23 +15,26 @@ public class Player : MonoBehaviour {
                  groundCheckRadious;
     public int Health = 5,
                AroSpeed = 10;
+    private bool isGrounded,
+                 toRight = true,
+                 crouch = false,
+                 fell = false,
+                 shot = false;
     public LayerMask isGroundedLayer;
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer SprtRndrr;
-    private bool isGrounded,
-                 toRight = true,
-                 crouch = false,
-                 fell = false;
     public GameObject arrow;
     public Collider2D doesGround;
     private Arrrow a;
+    public CountDisplay CD;
 
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         SprtRndrr = GetComponent<SpriteRenderer>();
-        
+        CD = GetComponent<CountDisplay>();
+
         speedVector = rb2d.velocity;
         stopVector = rb2d.velocity;
         fallVector = rb2d.velocity;
@@ -125,6 +128,7 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.S)) {
             anim.Play("Shooting");
             a = Instantiate(arrow, new Vector2(rb2d.position.x, rb2d.position.y), Quaternion.identity).GetComponent<Arrrow>();
+            shot = true;
         }
 
         if ((rb2d.velocity.x < 0 && toRight) || (rb2d.velocity.x > 0 && !toRight)) {
@@ -132,11 +136,16 @@ public class Player : MonoBehaviour {
             SprtRndrr.flipX = !SprtRndrr.flipX;
         }
 
-        a.speedVector.x = -speed;
-        if (!toRight) {
-            a.Flip(SprtRndrr.flipX);
-            a.speedVector.x *= -1;
+        if (shot)
+        {
+            a.speedVector.x = -speed;
+            //shot = false;
+            if (!toRight) {
+                a.Flip(SprtRndrr.flipX);
+                a.speedVector.x *= -1;
+            }
         }
+        
 
         /*if (!toRight) {
             AroSpeed *= -1;
@@ -145,7 +154,7 @@ public class Player : MonoBehaviour {
             AroSpeed = 10;
         }*/
 
-        if (Health == 0) {
+        if (Health <= 0) {
             Destroy(gameObject);
         }
     }
@@ -153,5 +162,6 @@ public class Player : MonoBehaviour {
         Enemy Enemy = collision.gameObject.GetComponent<Enemy>();
         if (Enemy == null) {return;}
         Health -= Enemy.Attack;
+        CD.health = Health;
     }
 }

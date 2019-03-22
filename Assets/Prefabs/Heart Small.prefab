@@ -93,6 +93,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b7c3b834087b94aa9a8f73610ebefb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Value: 1
+  doesPick: {fileID: 8692559293735160851}
+  isPickedLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  CD: {fileID: 2187683931256907905, guid: ae5ce855010addc4facc39f50516eee4, type: 3}
 --- !u!61 &8692559293735160851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -103,7 +109,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
