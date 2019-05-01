@@ -13,11 +13,14 @@ public class Enemy : MonoBehaviour{
     public GameObject heart;
     public CountDisplay CD;
     private Animator anim;
+    private AudioSource Audio;
+    public AudioClip ded;
 
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        CD = GetComponent<CountDisplay>();
+        Audio = GetComponent<AudioSource>();
+        //CD = GetComponent<CountDisplay>();
     }
 
     void Update() {
@@ -28,9 +31,16 @@ public class Enemy : MonoBehaviour{
         }
 
         if (Health == 0) {
-            Destroy(gameObject);
+            Health--;
+            Audio.clip = ded;
+            Audio.Play();
+            Debug.Log("ded");
             Heart h = Instantiate(heart, new Vector2(transform.position.x, transform.position.y), Quaternion.identity).GetComponent<Heart>();
-            CD.score += Value;
+            transform.position = Vector3.one * 9999f;
+            Destroy(gameObject, Audio.clip.length);
+            CD.choice = 2;
+            //CD.score += Value;
+            CD.IncrementScore(Value);
         }
     }
 

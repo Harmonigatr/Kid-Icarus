@@ -13,7 +13,7 @@ public class Arrrow : MonoBehaviour {
     private float speed = 10;
     private float Timer = 0.0f;
     public int Damage = 1;
-    public void Flip(bool bby)  { SprtRndrr.flipX = bby;  }
+    public void Flip(bool bby)   { if (SprtRndrr) { SprtRndrr.flipX = bby;  } }
     private bool isHit;
     public Collider2D doesHit;
     public LayerMask isHitLayer;

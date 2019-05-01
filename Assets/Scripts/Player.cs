@@ -28,12 +28,15 @@ public class Player : MonoBehaviour {
     public Collider2D doesGround;
     private Arrrow a;
     public CountDisplay CD;
+    private AudioSource Audio;
+    public AudioClip pew, jump, oof;
 
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         SprtRndrr = GetComponent<SpriteRenderer>();
-        CD = GetComponent<CountDisplay>();
+        Audio = GetComponent<AudioSource>();
+        //CD = GetComponent<CountDisplay>();
 
         speedVector = rb2d.velocity;
         stopVector = rb2d.velocity;
@@ -72,6 +75,9 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded) {
             rb2d.AddForce(Vector3.up * JumpForce);
             anim.Play("Jumping");
+            Audio.clip = jump;
+            Audio.Play();
+            Debug.Log("jump");
         }
         if (rb2d.velocity.y <= 0 && !isGrounded) {
             //rb2d.AddForce(Vector3.down * 10);
@@ -129,6 +135,9 @@ public class Player : MonoBehaviour {
             anim.Play("Shooting");
             a = Instantiate(arrow, new Vector2(rb2d.position.x, rb2d.position.y), Quaternion.identity).GetComponent<Arrrow>();
             shot = true;
+            Audio.clip = pew;
+            Audio.Play();
+            Debug.Log("pew");
         }
 
         if ((rb2d.velocity.x < 0 && toRight) || (rb2d.velocity.x > 0 && !toRight)) {
@@ -162,6 +171,11 @@ public class Player : MonoBehaviour {
         Enemy Enemy = collision.gameObject.GetComponent<Enemy>();
         if (Enemy == null) {return;}
         Health -= Enemy.Attack;
-        CD.health = Health;
+        CD.choice = 1;
+        //CD.health = Health;
+        CD.IncrementScore(Enemy.Attack);
+        Audio.clip = oof;
+        Audio.Play();
+        Debug.Log("oof");
     }
 }
